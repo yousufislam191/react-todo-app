@@ -1,0 +1,36 @@
+.container {
+    background-color: rgb(34, 34, 34);
+    padding: 1rem;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.fixed {
+    height: 35%;
+}
+
+@media screen and (max-width: 992px) {
+    .fixed {
+        height: 20%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .fixed {
+        height: 28%;
+    }
+}
+
+.scrolling {
+    overflow-y: scroll;
+    height: 70vh;
+}
+
+.container h1 {
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
